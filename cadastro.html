@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cards">
+    <form id="formLivro">
+    <h1>Cadastro de Livro</h1>
+    
+      <label for="titulo">Nome do Livro:</label>
+      <input type="text" id="titulo" name="titulo" required />
+
+      <label for="autor">Autor:</label>
+      <input type="text" id="autor" name="autor" required />
+
+      <label for="ano">Ano:</label>
+      <input type ="number" name="ano" id="ano" required></input>
+
+      <label for="Generos">Genero:</label>
+      <input type="text" id="Genero" name = "genero" required />
+     
+      <label for="sinopse">Sinopse:</label>
+      <input type = "text" id="sinopse" name="sinopse"  required></input>
+
+      <button id="botao" type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Livros cadastrados</h2>
+    <div id= "cardContainer"></div>
+  </div>
+  
+
+  
+
+  <script src="cadastro.js"></script>
+</body>
+</html>
